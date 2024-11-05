@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+:root{
+    --background: #37344e;
+    --hedline: #fffffe;
+    --paragraph:#a7a9be;
+    --button: #ff8906;
+    --buttontext: #ff8906;
+    --tertiary: #e53170;
+ }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+img{
+    width: 150px;
+    display: flex;
+    mix-blend-mode: multiply;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: "Ubuntu", sans-serif;
+    background-color: black;
+}
+
+nav{    
+    margin: auto;
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    background-color: #e53170;
+}
+
+.nav-logo{
+    max-width: 100px;
+}
+
+.navbar-link{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    border-bottom: var(--hedline);
+}
+
+.links a{
+    position: relative;
+    padding-bottom: 0,75rem;
+    transition: 0.3s;
+    color: #000;
+}
+
+.links a:hover{
+    color:#fffffe;
+    border-bottom: 3px solid white;
+}
+
+.cart{
+    position: relative;
+    display: flex;
+    font-size: 45px;
+    color: #0f0e17;
+}
